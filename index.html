@@ -4,223 +4,269 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Balasubramaniam | Web Developer</title>
-  <meta name="description" content="Balasubramaniam - Web Developer specializing in WordPress, WooCommerce, Shopify, Wix, and template-based websites for small businesses and online stores." />
-
+  <meta name="description" content="Balasubramaniam - Web Developer specializing in WordPress, WooCommerce, Shopify, Wix and template-based websites for small businesses and online stores." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header / Navbar -->
-  <header class="header">
-    <div class="container nav-container">
-      <div class="logo">Bala<span>.</span></div>
-      <nav class="nav">
-        <a href="#home">Home</a>
+  <!-- Wrapper -->
+  <div class="page">
+
+    <!-- Sidebar / Header -->
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">
+          <!-- If you have a photo, replace placeholder with <img src="assets/your-photo.jpg" alt="Balasubramaniam"> -->
+          <span>B</span>
+        </div>
+        <h1 class="name">Balasubramaniam</h1>
+        <p class="role">Web Developer</p>
+      </div>
+
+      <nav class="side-nav">
+        <a href="#home" class="active">Home</a>
         <a href="#services">Services</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
-    </div>
-  </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container hero-content">
-      <div>
-        <p class="tagline">Freelance Web Developer · Remote Ready</p>
-        <h1>Hi, I'm <span>Balasubramaniam</span></h1>
-        <h2>I build clean, conversion-focused websites for businesses.</h2>
+      <div class="side-footer">
+        <p>Open to remote work & freelance projects.</p>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+
+      <!-- Hero -->
+      <section id="home" class="section hero">
+        <p class="hero-tag">Freelance Web Developer · Remote Ready</p>
+        <h2 class="hero-title">
+          I build practical, business-focused websites using
+          <span>WordPress, WooCommerce, Shopify & Wix.</span>
+        </h2>
         <p class="hero-text">
-          I specialize in WordPress, WooCommerce, Shopify, Wix, and template-based
-          websites. I help businesses launch and grow their online presence with
-          fast, mobile-friendly and easy-to-manage sites.
+          I help small businesses and entrepreneurs get online quickly with
+          clean, responsive and easy-to-manage websites. If you need a business
+          site or an online store, I can set it up, customize it and keep it running smoothly.
         </p>
         <div class="hero-actions">
           <a href="#contact" class="btn primary">Hire Me</a>
-          <a href="#projects" class="btn secondary">View My Work</a>
-        </div>
-      </div>
-      <!-- Optional: You can add an image later
-      <div class="hero-image">
-        <img src="your-photo.jpg" alt="Balasubramaniam - Web Developer">
-      </div>
-      -->
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="section bg-light">
-    <div class="container">
-      <h2 class="section-title">What I Do</h2>
-      <p class="section-subtitle">
-        End-to-end website solutions for small businesses, brands, and online stores.
-      </p>
-
-      <div class="grid-3">
-        <div class="card">
-          <h3>Business Websites</h3>
-          <p>
-            Modern, responsive websites for businesses, portfolios, and services
-            using WordPress, Wix, and template-based designs.
-          </p>
+          <a href="#projects" class="btn ghost">View Projects</a>
         </div>
 
-        <div class="card">
-          <h3>E-Commerce Stores</h3>
-          <p>
-            Online stores built with WooCommerce and Shopify, including product
-            pages, checkout, payment integration, and basic optimization.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Website Setup & Support</h3>
-          <p>
-            Domain & hosting setup, theme installation, plugin configuration,
-            basic SEO setup, and ongoing updates or content changes.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2 class="section-title">Skills & Tools</h2>
-      <p class="section-subtitle">
-        I focus on practical, real-world tools that help businesses go online quickly.
-      </p>
-
-      <div class="skills-list">
-        <span>WordPress</span>
-        <span>WooCommerce</span>
-        <span>Shopify</span>
-        <span>Wix</span>
-        <span>Template-based Websites</span>
-        <span>Basic HTML</span>
-        <span>Basic CSS</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="section bg-light">
-    <div class="container">
-      <h2 class="section-title">Selected Projects</h2>
-      <p class="section-subtitle">
-        A few recent websites I have worked on.
-      </p>
-
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Trinkiobee</h3>
-          <p>
-            An online presence built for Trinkiobee, focused on showcasing products
-            and creating a clean browsing experience for visitors.
-          </p>
-          <p class="project-tech">
-            <strong>Tech:</strong> WordPress, template-based customization
-          </p>
-          <a href="https://trinkiobee.com" target="_blank" class="project-link">
-            Visit Website →
-          </a>
-        </div>
-
-        <div class="project-card">
-          <h3>Priyanka Enterprises</h3>
-          <p>
-            A business website for Priyanka Enterprises, highlighting services,
-            products, and contact details with a local SEO-friendly structure.
-          </p>
-          <p class="project-tech">
-            <strong>Tech:</strong> WordPress, WooCommerce-ready structure
-          </p>
-          <a href="https://priyankaenterprisess.com" target="_blank" class="project-link">
-            Visit Website →
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container about-container">
-      <div>
-        <h2 class="section-title">About Me</h2>
-        <p>
-          I'm Balasubramaniam, a web developer focused on helping small businesses,
-          startups, and solo entrepreneurs get online quickly with practical,
-          easy-to-manage websites.
-        </p>
-        <p>
-          My main strength is working with platforms like WordPress, WooCommerce,
-          Shopify, and Wix to create professional websites without over-complicating
-          things. I also have basic knowledge of HTML and CSS, which helps me make
-          custom tweaks when needed.
-        </p>
-        <p>
-          I am actively looking for <strong>remote work opportunities</strong> and
-          freelance projects where I can build and maintain websites, especially for
-          businesses that want to start their online journey or improve their
-          existing website.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section bg-light">
-    <div class="container">
-      <h2 class="section-title">Work With Me</h2>
-      <p class="section-subtitle">
-        Available for freelance projects and remote web development roles.
-      </p>
-
-      <div class="contact-grid">
-        <div>
-          <h3>Let’s discuss your website</h3>
-          <p>
-            Whether you need a new website, an online store, or improvements to your
-            current site, I’d be happy to help.
-          </p>
-          <ul class="contact-details">
-            <li><strong>Location:</strong> India (open to remote work)</li>
-            <li><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-            <li><strong>WhatsApp:</strong> <a href="https://wa.me/910000000000" target="_blank">Chat on WhatsApp</a></li>
-            <!-- Replace with your real number above e.g. wa.me/9198xxxxxxxx -->
-            <!-- Optional: Add LinkedIn / GitHub links -->
-            <!-- <li><strong>LinkedIn:</strong> <a href="#" target="_blank">Your LinkedIn</a></li>
-            <li><strong>GitHub:</strong> <a href="#" target="_blank">Your GitHub</a></li> -->
+        <div class="hero-highlight">
+          <div>
+            <h3>2+ Completed Projects</h3>
+            <p>Working with real business owners to build their online presence.</p>
+          </div>
+          <ul>
+            <li>Template-based website development</li>
+            <li>Basic e-commerce setup</li>
+            <li>Domain, hosting & basic SEO setup</li>
           </ul>
         </div>
+      </section>
 
-        <div>
-          <form class="contact-form" onsubmit="alert('This is a static demo form. Please contact me via email or WhatsApp.'); return false;">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea rows="4" placeholder="Tell me about your project..." required></textarea>
-            <button type="submit" class="btn primary">Send Message</button>
-            <p class="small-note">
-              *This form is static on GitHub Pages. For real inquiries, please email or WhatsApp me.
+      <!-- Services -->
+      <section id="services" class="section">
+        <h2 class="section-title">What I Can Do For You</h2>
+        <p class="section-subtitle">
+          I focus on simple, effective solutions that help you start or grow your online business.
+        </p>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Business / Company Websites</h3>
+            <p>
+              Professional websites for services, companies, portfolios and local businesses using
+              platforms like WordPress and Wix.
             </p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+          </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>© <span id="year"></span> Balasubramaniam · Web Developer</p>
-    </div>
-  </footer>
+          <div class="card">
+            <h3>E-Commerce Stores</h3>
+            <p>
+              Online stores built with WooCommerce or Shopify – product listing, cart, checkout and
+              payment integration.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Website Setup & Support</h3>
+            <p>
+              Domain & hosting setup, theme installation, plugin configuration, basic SEO,
+              and regular content or product updates.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section-alt">
+        <h2 class="section-title">Skills & Tools</h2>
+        <p class="section-subtitle">
+          I work mainly with no-code / low-code platforms and add basic HTML & CSS tweaks where needed.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3>Website Platforms</h3>
+            <div class="chips">
+              <span>WordPress</span>
+              <span>WooCommerce</span>
+              <span>Shopify</span>
+              <span>Wix</span>
+            </div>
+          </div>
+          <div class="skills-group">
+            <h3>Frontend Basics</h3>
+            <div class="chips">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive Layouts</span>
+            </div>
+          </div>
+          <div class="skills-group">
+            <h3>Website Operations</h3>
+            <div class="chips">
+              <span>Template Customization</span>
+              <span>Plugin Setup</span>
+              <span>Basic SEO Setup</span>
+              <span>Content Updates</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-subtitle">
+          A quick look at real websites I have worked on.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <header>
+              <h3>Trinkiobee</h3>
+              <span class="project-tag">Live Website</span>
+            </header>
+            <p>
+              Online presence for Trinkiobee, focused on showcasing products and building brand
+              trust with a clean, simple layout.
+            </p>
+            <ul class="project-points">
+              <li>Configured WordPress and customized a template</li>
+              <li>Organized content structure and navigation</li>
+              <li>Set up basic on-page SEO elements</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> WordPress · Template customization
+            </p>
+            <a href="https://trinkiobee.com" target="_blank" class="project-link">Visit trinkiobee.com →</a>
+          </article>
+
+          <article class="project-card">
+            <header>
+              <h3>Priyanka Enterprises</h3>
+              <span class="project-tag">Live Website</span>
+            </header>
+            <p>
+              Business website for Priyanka Enterprises, designed to highlight services, contact
+              details and local presence for customers.
+            </p>
+            <ul class="project-points">
+              <li>Built homepage and service sections using WordPress</li>
+              <li>Structured content with local SEO in mind</li>
+              <li>Prepared site to support future e-commerce features</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> WordPress · WooCommerce-ready structure
+            </p>
+            <a href="https://priyankaenterprisess.com" target="_blank" class="project-link">Visit priyankaenterprisess.com →</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section section-alt">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-layout">
+          <div>
+            <p>
+              I'm <strong>Balasubramaniam</strong>, a web developer who enjoys working with
+              practical tools like WordPress, WooCommerce, Shopify and Wix to bring business ideas online.
+            </p>
+            <p>
+              Instead of complex custom code, I focus on platforms that allow faster delivery,
+              easier maintenance and better control for business owners. With my basic HTML and CSS
+              knowledge, I can also make layout and styling tweaks when needed.
+            </p>
+          </div>
+          <div>
+            <p>
+              I am actively looking for <strong>remote work opportunities</strong> and
+              freelance projects, especially:
+            </p>
+            <ul class="about-list">
+              <li>New website setups for small businesses</li>
+              <li>Basic online store launches</li>
+              <li>Improving or cleaning up existing sites</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2 class="section-title">Work With Me</h2>
+        <p class="section-subtitle">
+          Tell me a bit about your website needs, and we’ll take it forward.
+        </p>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <ul>
+              <li><strong>Location:</strong> India (open to remote clients worldwide)</li>
+              <li><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+              <li><strong>WhatsApp:</strong> <a href="https://wa.me/910000000000" target="_blank">Chat with me on WhatsApp</a></li>
+              <!-- Optional:
+              <li><strong>LinkedIn:</strong> <a href="#" target="_blank">Your LinkedIn</a></li>
+              <li><strong>GitHub:</strong> <a href="#" target="_blank">Your GitHub</a></li>
+              -->
+            </ul>
+          </div>
+
+          <div class="contact-box">
+            <h3>Quick Project Inquiry</h3>
+            <form onsubmit="alert('This is a static portfolio. Please contact me via email or WhatsApp.'); return false;">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea rows="4" placeholder="Tell me about your website or store..." required></textarea>
+              <button type="submit" class="btn primary full-width">Send Message</button>
+              <p class="form-note">
+                *This form is for demo only on GitHub Pages. For real projects, please use email or WhatsApp.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>© <span id="year"></span> Balasubramaniam · Web Developer</p>
+      </footer>
+
+    </main>
+  </div>
 
   <script>
-    // Set current year in footer
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
